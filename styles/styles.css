@@ -1,0 +1,58 @@
+div.tooltip {	
+    position: absolute;			
+    text-align: center;								
+    padding: .2rem;				
+    background: #313639;
+    color: #f9f9f9;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;
+    font-size: .7rem;			
+}
+
+div.donut-tip {	
+    position: absolute;			
+    text-align: center;								
+    padding: .5rem;				
+    background: #FFFFFF;
+    color: #313639;	
+    border: 1px solid #313639;		
+    border-radius: 8px;			
+    pointer-events: none;
+    font-size: 1.3rem;			
+}
+
+.legend-pie{
+    font-size: .9rem;
+}
+
+.legend-pie .strongly-like{
+    color:#5EC9A9;
+}
+.legend-pie .like{
+    color:#AFE4B8;
+}
+.legend-pie .dislike{
+    color:#539CC6;
+}
+.legend-pie .strongly-dislike{
+    color:#323595;
+}
+.legend-pie .unsure{
+    color:#C2D5EB;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .legend-bar text{
+        font-size: .5rem;
+    }
+    .legend-bar rect{
+        width: 5px;
+        height: 5px;
+    }
+    div.tooltip {	
+        font-size: 1rem;			
+    }
+  }
+
